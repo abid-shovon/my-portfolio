@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abid Hasan Shovon | Network Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Professional portfolio of Abid Hasan Shovon, a skilled Network Engineer specializing in Cisco CCNA, MikroTik MTCNA, and Red Hat RHCSA. Discover projects and experience.">
+  <meta name="keywords"
+    content="Abid Hasan Shovon, Network Engineer, Cisco CCNA, MikroTik MTCNA, Red Hat RHCSA, Proxmox, Fortinet, Zabbix, Nagios, Portfolio">
+
+  <!-- FontAwesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background Interactive Canvas -->
+  <canvas id="bg-canvas"></canvas>
+  <div class="grid-overlay"></div>
+
+  <!-- Header & Sticky Navigation -->
+  <header>
+    <div class="container nav-container">
+      <a href="#hero" class="logo" id="nav-logo">
+        <i class="fa-solid fa-network-wired"></i>
+        <!-- <span>SHOVON</span> -->
+      </a>
+      <nav>
+        <ul class="nav-links" id="nav-menu">
+          <li class="nav-item"><a href="#hero">Home</a></li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#experience">Experience</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item"><a href="#certifications">Certifications</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu-btn" id="mobile-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="section">
+    <div class="container hero-wrapper">
+      <div class="hero-content">
+        <span class="hero-subtitle">System & Network Specialist</span>
+        <h1 class="hero-title">Abid Hasan Shovon</h1>
+        <div class="hero-typing">
+          <span id="typing-text"></span>
+        </div>
+        <p class="hero-description">
+          Eager to build, configure, and maintain robust, high-availability networks. Specialized in Cisco, MikroTik,
+          and Red Hat systems administration, with hands-on enterprise-level experience.
+        </p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">
+            View Projects <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            Let's Talk <i class="fa-solid fa-paper-plane"></i>
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/abid-hasan-shovon-902112231" target="_blank" aria-label="LinkedIn"
+            class="social-icon">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:abidshovon945@gmail.com" aria-label="Email" class="social-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="tel:+8801743338456" aria-label="Phone" class="social-icon">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="art-container">
+          <div class="art-image">
+            <i class="fa-solid fa-server"></i>
+          </div>
+          <div class="art-glow-ring"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title"><span>01.</span> Career Summary</h2>
+      <div class="about-grid">
+        <div class="about-details">
+          <p>
+            I am a dedicated <strong>Network Engineer</strong> with a strong academic background in Computer Science and
+            Engineering. I graduated with a CGPA of <strong>3.97</strong> from the University of South Asia (2021-2025).
+          </p>
+          <p>
+            My objective is to work in a dynamic tech-driven environment that challenges my networking skills, enabling
+            me to contribute to enterprise-level network optimization and virtualization deployments.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-item">
+              <label>Education</label>
+              <span>B.Sc in CSE (3.97 CGPA)</span>
+            </div>
+            <div class="info-item">
+              <label>Location</label>
+              <span>Dhaka, Bangladesh</span>
+            </div>
+            <div class="info-item">
+              <label>Email</label>
+              <span>abidshovon945@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <label>Certificates</label>
+              <span>MTCNA, CCNA, RHCSA</span>
+            </div>
+          </div>
+        </div>
+        <div class="stats-grid">
+          <div class="glass-card stat-card">
+            <div class="stat-number">3.97</div>
+            <div class="stat-label">University CGPA</div>
+          </div>
+          <div class="glass-card stat-card">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Core Certifications</div>
+          </div>
+          <div class="glass-card stat-card">
+            <div class="stat-number">2+</div>
+            <div class="stat-label">Completed Projects</div>
+          </div>
+          <div class="glass-card stat-card">
+            <div class="stat-number">1.5+</div>
+            <div class="stat-label">Years Field Experience</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title"><span>02.</span> Core Skills</h2>
+
+      <!-- Tab Controls -->
+      <div class="skills-tabs">
+        <button class="tab-btn active" data-tab="networking">
+          <i class="fa-solid fa-route"></i> Networking (CCNA/MTCNA)
+        </button>
+        <button class="tab-btn" data-tab="systems">
+          <i class="fa-solid fa-terminal"></i> Systems & Admin (RHCSA)
+        </button>
+        <button class="tab-btn" data-tab="platforms">
+          <i class="fa-solid fa-cube"></i> Virtualization & Tools
+        </button>
+      </div>
+
+      <!-- Tab Content Panels -->
+      <div class="skills-content">
+        <!-- Panel 1: Networking -->
+        <div class="tab-panel active" id="networking">
+          <div class="glass-card skill-category-card">
+            <h3><i class="fa-solid fa-sitemap"></i> Network Layer & Routing</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">Routing Protocols (OSPF, BGP, Static,
+                    RIP)</span><span class="skill-val">90%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">VLAN & Inter-VLAN Routing</span><span
+                    class="skill-val">85%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">Subnetting (CIDR, VLSM)</span><span
+                    class="skill-val">95%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="95%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="glass-card skill-category-card">
+            <h3><i class="fa-solid fa-shield-halved"></i> Security & VPNs</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">VPNs (IPsec, SSTP, GRE, L2TP, PPTP)</span><span
+                    class="skill-val">85%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">Firewalls & ACLs (MikroTik, FortiGate)</span><span
+                    class="skill-val">88%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">NAT, Port-Forwarding, DHCP</span><span
+                    class="skill-val">90%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="90%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 2: Systems -->
+        <div class="tab-panel" id="systems">
+          <div class="glass-card skill-category-card">
+            <h3><i class="fa-brands fa-linux"></i> Linux Administration</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">Disk Partitioning (LVM & Standard)</span><span
+                    class="skill-val">80%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">System Services (Cron, Systemd,
+                    SELinux)</span><span class="skill-val">85%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">Web & Mail Servers (Apache, Postfix,
+                    RoundCube)</span><span class="skill-val">75%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="glass-card skill-category-card">
+            <h3><i class="fa-solid fa-server"></i> Services & Monitoring</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">DNS (Primary & Slave Config)</span><span
+                    class="skill-val">80%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">Nagios & Zabbix Integration</span><span
+                    class="skill-val">85%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">Samba & NFS Sharing</span><span
+                    class="skill-val">78%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="78%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 3: Virtualization & Tools -->
+        <div class="tab-panel" id="platforms">
+          <div class="glass-card skill-category-card">
+            <h3><i class="fa-solid fa-cubes"></i> Environment & Platform</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">Proxmox VE Virtualization</span><span
+                    class="skill-val">88%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">Ubuntu Server Deployments</span><span
+                    class="skill-val">90%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="90%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">Starlink Integration</span><span
+                    class="skill-val">80%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="glass-card skill-category-card">
+            <h3><i class="fa-solid fa-wrench"></i> Simulator & Collaboration</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">PNATLab & EVE-ng Simulators</span><span
+                    class="skill-val">92%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="92%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">Cisco Packet Tracer</span><span
+                    class="skill-val">95%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-item-info"><span class="skill-name">Microsoft 365 & Office Suite</span><span
+                    class="skill-val">85%</span></div>
+                <div class="skill-bar-wrapper">
+                  <div class="skill-bar-progress" data-width="85%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title"><span>03.</span> Work History</h2>
+      <div class="timeline">
+
+        <!-- Experience 1 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-header">
+            <h3 class="timeline-title">Network Engineer</h3>
+            <div class="timeline-company">Tahoe Communication Limited</div>
+            <div class="timeline-date">February 2026 – Present</div>
+          </div>
+          <div class="timeline-content">
+            <ul>
+              <li>Configured and managed FortiGate Firewalls, including SSL VPN, DDNS, and Fortinet-based centralized
+                log management solutions.</li>
+              <li>Deployed Nagios and Zabbix monitoring servers on Ubuntu using a Proxmox VE virtualization platform.
+              </li>
+              <li>Implemented and maintained enterprise network solutions, including BGP routing, IPsec, SSTP, GRE &
+                L2TP VPNs. Handled Starlink integration using MikroTik Routers.</li>
+              <li>Designed and executed project-based LAN and Wi-Fi solutions, managing hardware from Ruijie,
+                Grandstream, Edgecore, and NETGEAR.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-header">
+            <h3 class="timeline-title">Jr. Network Engineer</h3>
+            <div class="timeline-company">Aamra Networks Limited</div>
+            <div class="timeline-date">June 2025 – January 2026</div>
+          </div>
+          <div class="timeline-content">
+            <ul>
+              <li>Provided onsite and remote support to corporate clients.</li>
+              <li>Configured and maintained MikroTik routers & Cisco switch in production environments.</li>
+              <li>Implemented PPPoE, GRE, IP-IP, PPTP, L2TP, NAT, Firewall, VLAN, BGP, Bandwidth Control, Mangle,
+                Failover, and Port-Forwarding.</li>
+              <li>Troubleshot network issues including high latency, packet loss, routing errors, website
+                inaccessibility, slow bandwidth, and DNS-related problems.</li>
+              <li>Monitored and analyzed network performance using Nagios, ensuring smooth and reliable network
+                operations.</li>
+              <li>Communicated with clients via calls, email, and WhatsApp, ensuring timely issue resolution and proper
+                tracking through the ticketing system.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-header">
+            <h3 class="timeline-title">Support Engineer (Internship)</h3>
+            <div class="timeline-company">Race Online</div>
+            <div class="timeline-date">January 2025 – April 2025</div>
+          </div>
+          <div class="timeline-content">
+            <p>
+              Gained valuable hands-on experience in enterprise network operations. Assisted in network monitoring,
+              configuring MikroTik routers, managing OLT devices, and addressing ticket-based troubleshooting requests.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title"><span>04.</span> Network Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="glass-card project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="project-links">
+              <a href="#" target="_blank" aria-label="Github"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Fortinet Centralized Log Analyzer</h3>
+          <p class="project-description">
+            Collected FortiGate logs via rsyslog on Ubuntu and parsed them into structured JSON/relational tables using
+            a Python parser. Stored logs in PostgreSQL and built a Flask (Gunicorn) backend served by Nginx to deliver a
+            secure, real-time log monitoring dashboard.
+          </p>
+          <div class="project-tech">
+            <span>Proxmox</span>
+            <span>Ubuntu</span>
+            <span>rsyslog</span>
+            <span>Python</span>
+            <span>PostgreSQL</span>
+            <span>Flask</span>
+            <span>Nginx</span>
+          </div>
+          <div class="project-platform">
+            <i class="fa-solid fa-server"></i> Platform: Proxmox VE & Ubuntu Server 22.04 LTS
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="glass-card project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <div class="project-links">
+              <a href="#" target="_blank" aria-label="Network Diagram"><i class="fa-solid fa-network-wired"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">ISP-Integrated Network with Dual WAN Redundancy</h3>
+          <p class="project-description">
+            Implemented a MikroTik ISP core router connected to client-side Cisco networks. Configured dual WAN failover
+            using BGP, OSPF, Inter-VLAN routing, NAT translation, ACL security policies, Layer-2 loop protection, SSH
+            management, and automated TFTP configuration backups.
+          </p>
+          <div class="project-tech">
+            <span>PNATLab</span>
+            <span>MikroTik RouterOS</span>
+            <span>Cisco IOS</span>
+            <span>BGP</span>
+            <span>OSPF</span>
+            <span>VLANs</span>
+            <span>IP SLA</span>
+          </div>
+          <div class="project-platform">
+            <i class="fa-solid fa-microchip"></i> Simulator: PNATLab
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <h2 class="section-title"><span>05.</span> Certifications</h2>
+      <div class="cert-grid">
+
+        <!-- Cert 1 -->
+        <div class="glass-card cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-shield"></i></div>
+          <h3 class="cert-title">CCNA</h3>
+          <div class="cert-org">Cisco Certified Network Associate</div>
+          <p>Validated skills in network fundamentals, IP connectivity, IP services, security fundamentals, and
+            automation.</p>
+          <span class="cert-btn">Verified Cisco Course <i class="fa-solid fa-circle-check"></i></span>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="glass-card cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-shield"></i></div>
+          <h3 class="cert-title">MTCNA</h3>
+          <div class="cert-org">MikroTik Certified Network Associate</div>
+          <p>Official vendor certification validating expertise in RouterOS configuration, routing, firewalls, and
+            bandwidth management.</p>
+          <span class="cert-btn">Vendor Certified <i class="fa-solid fa-circle-check"></i></span>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="glass-card cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-shield"></i></div>
+          <h3 class="cert-title">RHCSA</h3>
+          <div class="cert-org">Red Hat Certified System Administrator</div>
+          <p>Credentials proving capabilities in Red Hat Enterprise Linux system management, package deployment, storage
+            configuration, and security.</p>
+          <span class="cert-btn">Verified Linux Admin <i class="fa-solid fa-circle-check"></i></span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title"><span>06.</span> Contact Me</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <p>Have a vacancy or need assistance in optimizing your network? Reach out directly using the form or standard
+            contact pathways below.</p>
+
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="contact-card-details">
+              <h4>Email</h4>
+              <p><a href="mailto:abidshovon945@gmail.com">abidshovon945@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="contact-card-details">
+              <h4>Phone / WhatsApp</h4>
+              <p><a href="tel:+8801743338456">+880 1743-338456</a></p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="contact-card-details">
+              <h4>Location</h4>
+              <p>Shyamoli, Mohammadpur, Dhaka, Bangladesh</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="form-name" class="form-input" placeholder=" " required>
+              <label for="form-name" class="form-label">Full Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="form-email" class="form-input" placeholder=" " required>
+              <label for="form-email" class="form-label">Email Address</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="form-subject" class="form-input" placeholder=" " required>
+              <label for="form-subject" class="form-label">Subject</label>
+            </div>
+            <div class="form-group">
+              <textarea id="form-message" class="form-input" rows="5" placeholder=" " required></textarea>
+              <label for="form-message" class="form-label">Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-logo">
+        <i class="fa-solid fa-network-wired"></i> SHOVON<span>.</span>
+      </div>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/abid-hasan-shovon-902112231" target="_blank" aria-label="LinkedIn"
+          class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:abidshovon945@gmail.com" aria-label="Email" class="social-icon"><i
+            class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+8801743338456" aria-label="Phone" class="social-icon"><i class="fa-solid fa-phone"></i></a>
+      </div>
+      <div class="footer-text">
+        &copy; 2026 Abid Hasan Shovon. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script File -->
+  <script src="script.js"></script>
+</body>
+
+</html>
