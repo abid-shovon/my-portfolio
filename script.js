@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setTimeout(typeEffect, typingSpeed);
   }
-
+  
   if (typingText) {
     typeEffect();
   }
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
   tabBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       const targetId = btn.getAttribute('data-tab');
-
+      
       // Toggle button states
       tabBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const canvas = document.getElementById('bg-canvas');
   if (canvas) {
     const ctx = canvas.getContext('2d');
-
+    
     let width = (canvas.width = window.innerWidth);
     let height = (canvas.height = window.innerHeight);
 
@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
-
+      
       const name = document.getElementById('form-name').value;
       const email = document.getElementById('form-email').value;
       const subject = document.getElementById('form-subject').value;
@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Reset Form
       contactForm.reset();
-
+      
       // Floating labels reset check
       const inputs = contactForm.querySelectorAll('.form-input');
       inputs.forEach(input => {

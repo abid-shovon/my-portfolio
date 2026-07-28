@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abid Hasan Shovon | Network Engineer Portfolio</title>
-  <link rel="stylesheet" href="style.css">
   <!-- SEO Meta Tags -->
-  <meta name="description"
-    content="Professional portfolio of Abid Hasan Shovon, a skilled Network Engineer specializing in Cisco CCNA, MikroTik MTCNA, and Red Hat RHCSA. Discover projects and experience.">
-  <meta name="keywords"
-    content="Abid Hasan Shovon, Network Engineer, Cisco CCNA, MikroTik MTCNA, Red Hat RHCSA, Proxmox, Fortinet, Zabbix, Nagios, Portfolio">
-
+  <meta name="description" content="Professional portfolio of Abid Hasan Shovon, a skilled Network Engineer specializing in Cisco CCNA, MikroTik MTCNA, and Red Hat RHCSA. Discover projects and experience.">
+  <meta name="keywords" content="Abid Hasan Shovon, Network Engineer, Cisco CCNA, MikroTik MTCNA, Red Hat RHCSA, Proxmox, Fortinet, Zabbix, Nagios, Portfolio">
+  
   <!-- FontAwesome Icons CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
   <!-- Background Interactive Canvas -->
@@ -39,6 +34,7 @@
           <li class="nav-item"><a href="#experience">Experience</a></li>
           <li class="nav-item"><a href="#projects">Projects</a></li>
           <li class="nav-item"><a href="#certifications">Certifications</a></li>
+          <li class="nav-item"><a href="#resume">Resume</a></li>
           <li class="nav-item"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -58,8 +54,7 @@
           <span id="typing-text"></span>
         </div>
         <p class="hero-description">
-          Eager to build, configure, and maintain robust, high-availability networks. Specialized in Cisco, MikroTik,
-          and Red Hat systems administration, with hands-on enterprise-level experience.
+          Eager to build, configure, and maintain robust, high-availability networks. Specialized in Cisco, MikroTik, and Red Hat systems administration, with hands-on enterprise-level experience.
         </p>
         <div class="hero-ctas">
           <a href="#projects" class="btn btn-primary">
@@ -70,8 +65,7 @@
           </a>
         </div>
         <div class="hero-socials">
-          <a href="https://www.linkedin.com/in/abid-hasan-shovon-902112231" target="_blank" aria-label="LinkedIn"
-            class="social-icon">
+          <a href="https://www.linkedin.com/in/abid-hasan-shovon-902112231" target="_blank" aria-label="LinkedIn" class="social-icon">
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
           <a href="mailto:abidshovon945@gmail.com" aria-label="Email" class="social-icon">
@@ -85,7 +79,10 @@
       <div class="hero-art">
         <div class="art-container">
           <div class="art-image">
-            <i class="fa-solid fa-server"></i>
+            <img src="profile.jpg" alt="Abid Hasan Shovon" id="profile-img" onerror="this.style.display='none'; document.getElementById('profile-fallback').style.display='flex';">
+            <div id="profile-fallback" style="display: none; align-items: center; justify-content: center; width: 100%; height: 100%;">
+              <i class="fa-solid fa-user-tie" style="font-size: 6rem; color: var(--accent-cyan);"></i>
+            </div>
           </div>
           <div class="art-glow-ring"></div>
         </div>
@@ -100,12 +97,10 @@
       <div class="about-grid">
         <div class="about-details">
           <p>
-            I am a dedicated <strong>Network Engineer</strong> with a strong academic background in Computer Science and
-            Engineering. I graduated with a CGPA of <strong>3.97</strong> from the University of South Asia (2021-2025).
+            I am a dedicated <strong>Network Engineer</strong> with a strong academic background in Computer Science and Engineering. I graduated with a CGPA of <strong>3.97</strong> from the University of South Asia (2021-2025).
           </p>
           <p>
-            My objective is to work in a dynamic tech-driven environment that challenges my networking skills, enabling
-            me to contribute to enterprise-level network optimization and virtualization deployments.
+            My objective is to work in a dynamic tech-driven environment that challenges my networking skills, enabling me to contribute to enterprise-level network optimization and virtualization deployments.
           </p>
           <div class="about-info-grid">
             <div class="info-item">
@@ -152,7 +147,7 @@
   <section id="skills" class="section">
     <div class="container">
       <h2 class="section-title"><span>02.</span> Core Skills</h2>
-
+      
       <!-- Tab Controls -->
       <div class="skills-tabs">
         <button class="tab-btn active" data-tab="networking">
@@ -174,25 +169,16 @@
             <h3><i class="fa-solid fa-sitemap"></i> Network Layer & Routing</h3>
             <div class="skill-list">
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">Routing Protocols (OSPF, BGP, Static,
-                    RIP)</span><span class="skill-val">90%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="90%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">Routing Protocols (OSPF, BGP, Static, RIP)</span><span class="skill-val">90%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="90%"></div></div>
               </div>
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">VLAN & Inter-VLAN Routing</span><span
-                    class="skill-val">85%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="85%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">VLAN & Inter-VLAN Routing</span><span class="skill-val">85%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="85%"></div></div>
               </div>
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">Subnetting (CIDR, VLSM)</span><span
-                    class="skill-val">95%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="95%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">Subnetting (CIDR, VLSM)</span><span class="skill-val">95%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="95%"></div></div>
               </div>
             </div>
           </div>
@@ -200,25 +186,16 @@
             <h3><i class="fa-solid fa-shield-halved"></i> Security & VPNs</h3>
             <div class="skill-list">
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">VPNs (IPsec, SSTP, GRE, L2TP, PPTP)</span><span
-                    class="skill-val">85%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="85%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">VPNs (IPsec, SSTP, GRE, L2TP, PPTP)</span><span class="skill-val">85%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="85%"></div></div>
               </div>
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">Firewalls & ACLs (MikroTik, FortiGate)</span><span
-                    class="skill-val">88%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="88%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">Firewalls & ACLs (MikroTik, FortiGate)</span><span class="skill-val">88%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="88%"></div></div>
               </div>
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">NAT, Port-Forwarding, DHCP</span><span
-                    class="skill-val">90%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="90%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">NAT, Port-Forwarding, DHCP</span><span class="skill-val">90%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="90%"></div></div>
               </div>
             </div>
           </div>
@@ -230,25 +207,16 @@
             <h3><i class="fa-brands fa-linux"></i> Linux Administration</h3>
             <div class="skill-list">
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">Disk Partitioning (LVM & Standard)</span><span
-                    class="skill-val">80%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="80%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">Disk Partitioning (LVM & Standard)</span><span class="skill-val">80%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="80%"></div></div>
               </div>
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">System Services (Cron, Systemd,
-                    SELinux)</span><span class="skill-val">85%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="85%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">System Services (Cron, Systemd, SELinux)</span><span class="skill-val">85%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="85%"></div></div>
               </div>
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">Web & Mail Servers (Apache, Postfix,
-                    RoundCube)</span><span class="skill-val">75%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="75%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">Web & Mail Servers (Apache, Postfix, RoundCube)</span><span class="skill-val">75%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="75%"></div></div>
               </div>
             </div>
           </div>
@@ -256,25 +224,16 @@
             <h3><i class="fa-solid fa-server"></i> Services & Monitoring</h3>
             <div class="skill-list">
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">DNS (Primary & Slave Config)</span><span
-                    class="skill-val">80%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="80%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">DNS (Primary & Slave Config)</span><span class="skill-val">80%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="80%"></div></div>
               </div>
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">Nagios & Zabbix Integration</span><span
-                    class="skill-val">85%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="85%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">Nagios & Zabbix Integration</span><span class="skill-val">85%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="85%"></div></div>
               </div>
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">Samba & NFS Sharing</span><span
-                    class="skill-val">78%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="78%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">Samba & NFS Sharing</span><span class="skill-val">78%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="78%"></div></div>
               </div>
             </div>
           </div>
@@ -286,25 +245,16 @@
             <h3><i class="fa-solid fa-cubes"></i> Environment & Platform</h3>
             <div class="skill-list">
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">Proxmox VE Virtualization</span><span
-                    class="skill-val">88%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="88%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">Proxmox VE Virtualization</span><span class="skill-val">88%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="88%"></div></div>
               </div>
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">Ubuntu Server Deployments</span><span
-                    class="skill-val">90%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="90%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">Ubuntu Server Deployments</span><span class="skill-val">90%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="90%"></div></div>
               </div>
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">Starlink Integration</span><span
-                    class="skill-val">80%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="80%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">Starlink Integration</span><span class="skill-val">80%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="80%"></div></div>
               </div>
             </div>
           </div>
@@ -312,25 +262,16 @@
             <h3><i class="fa-solid fa-wrench"></i> Simulator & Collaboration</h3>
             <div class="skill-list">
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">PNATLab & EVE-ng Simulators</span><span
-                    class="skill-val">92%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="92%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">PNATLab & EVE-ng Simulators</span><span class="skill-val">92%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="92%"></div></div>
               </div>
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">Cisco Packet Tracer</span><span
-                    class="skill-val">95%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="95%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">Cisco Packet Tracer</span><span class="skill-val">95%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="95%"></div></div>
               </div>
               <div class="skill-item">
-                <div class="skill-item-info"><span class="skill-name">Microsoft 365 & Office Suite</span><span
-                    class="skill-val">85%</span></div>
-                <div class="skill-bar-wrapper">
-                  <div class="skill-bar-progress" data-width="85%"></div>
-                </div>
+                <div class="skill-item-info"><span class="skill-name">Microsoft 365 & Office Suite</span><span class="skill-val">85%</span></div>
+                <div class="skill-bar-wrapper"><div class="skill-bar-progress" data-width="85%"></div></div>
               </div>
             </div>
           </div>
@@ -344,7 +285,7 @@
     <div class="container">
       <h2 class="section-title"><span>03.</span> Work History</h2>
       <div class="timeline">
-
+        
         <!-- Experience 1 -->
         <div class="timeline-item">
           <div class="timeline-marker"></div>
@@ -355,14 +296,10 @@
           </div>
           <div class="timeline-content">
             <ul>
-              <li>Configured and managed FortiGate Firewalls, including SSL VPN, DDNS, and Fortinet-based centralized
-                log management solutions.</li>
-              <li>Deployed Nagios and Zabbix monitoring servers on Ubuntu using a Proxmox VE virtualization platform.
-              </li>
-              <li>Implemented and maintained enterprise network solutions, including BGP routing, IPsec, SSTP, GRE &
-                L2TP VPNs. Handled Starlink integration using MikroTik Routers.</li>
-              <li>Designed and executed project-based LAN and Wi-Fi solutions, managing hardware from Ruijie,
-                Grandstream, Edgecore, and NETGEAR.</li>
+              <li>Configured and managed FortiGate Firewalls, including SSL VPN, DDNS, and Fortinet-based centralized log management solutions.</li>
+              <li>Deployed Nagios and Zabbix monitoring servers on Ubuntu using a Proxmox VE virtualization platform.</li>
+              <li>Implemented and maintained enterprise network solutions, including BGP routing, IPsec, SSTP, GRE & L2TP VPNs. Handled Starlink integration using MikroTik Routers.</li>
+              <li>Designed and executed project-based LAN and Wi-Fi solutions, managing hardware from Ruijie, Grandstream, Edgecore, and NETGEAR.</li>
             </ul>
           </div>
         </div>
@@ -379,14 +316,10 @@
             <ul>
               <li>Provided onsite and remote support to corporate clients.</li>
               <li>Configured and maintained MikroTik routers & Cisco switch in production environments.</li>
-              <li>Implemented PPPoE, GRE, IP-IP, PPTP, L2TP, NAT, Firewall, VLAN, BGP, Bandwidth Control, Mangle,
-                Failover, and Port-Forwarding.</li>
-              <li>Troubleshot network issues including high latency, packet loss, routing errors, website
-                inaccessibility, slow bandwidth, and DNS-related problems.</li>
-              <li>Monitored and analyzed network performance using Nagios, ensuring smooth and reliable network
-                operations.</li>
-              <li>Communicated with clients via calls, email, and WhatsApp, ensuring timely issue resolution and proper
-                tracking through the ticketing system.</li>
+              <li>Implemented PPPoE, GRE, IP-IP, PPTP, L2TP, NAT, Firewall, VLAN, BGP, Bandwidth Control, Mangle, Failover, and Port-Forwarding.</li>
+              <li>Troubleshot network issues including high latency, packet loss, routing errors, website inaccessibility, slow bandwidth, and DNS-related problems.</li>
+              <li>Monitored and analyzed network performance using Nagios, ensuring smooth and reliable network operations.</li>
+              <li>Communicated with clients via calls, email, and WhatsApp, ensuring timely issue resolution and proper tracking through the ticketing system.</li>
             </ul>
           </div>
         </div>
@@ -401,8 +334,7 @@
           </div>
           <div class="timeline-content">
             <p>
-              Gained valuable hands-on experience in enterprise network operations. Assisted in network monitoring,
-              configuring MikroTik routers, managing OLT devices, and addressing ticket-based troubleshooting requests.
+              Gained valuable hands-on experience in enterprise network operations. Assisted in network monitoring, configuring MikroTik routers, managing OLT devices, and addressing ticket-based troubleshooting requests.
             </p>
           </div>
         </div>
@@ -416,7 +348,7 @@
     <div class="container">
       <h2 class="section-title"><span>04.</span> Network Projects</h2>
       <div class="projects-grid">
-
+        
         <!-- Project 1 -->
         <div class="glass-card project-card">
           <div class="project-header">
@@ -427,9 +359,7 @@
           </div>
           <h3 class="project-title">Fortinet Centralized Log Analyzer</h3>
           <p class="project-description">
-            Collected FortiGate logs via rsyslog on Ubuntu and parsed them into structured JSON/relational tables using
-            a Python parser. Stored logs in PostgreSQL and built a Flask (Gunicorn) backend served by Nginx to deliver a
-            secure, real-time log monitoring dashboard.
+            Collected FortiGate logs via rsyslog on Ubuntu and parsed them into structured JSON/relational tables using a Python parser. Stored logs in PostgreSQL and built a Flask (Gunicorn) backend served by Nginx to deliver a secure, real-time log monitoring dashboard.
           </p>
           <div class="project-tech">
             <span>Proxmox</span>
@@ -455,9 +385,7 @@
           </div>
           <h3 class="project-title">ISP-Integrated Network with Dual WAN Redundancy</h3>
           <p class="project-description">
-            Implemented a MikroTik ISP core router connected to client-side Cisco networks. Configured dual WAN failover
-            using BGP, OSPF, Inter-VLAN routing, NAT translation, ACL security policies, Layer-2 loop protection, SSH
-            management, and automated TFTP configuration backups.
+            Implemented a MikroTik ISP core router connected to client-side Cisco networks. Configured dual WAN failover using BGP, OSPF, Inter-VLAN routing, NAT translation, ACL security policies, Layer-2 loop protection, SSH management, and automated TFTP configuration backups.
           </p>
           <div class="project-tech">
             <span>PNATLab</span>
@@ -482,14 +410,13 @@
     <div class="container">
       <h2 class="section-title"><span>05.</span> Certifications</h2>
       <div class="cert-grid">
-
+        
         <!-- Cert 1 -->
         <div class="glass-card cert-card">
           <div class="cert-icon"><i class="fa-solid fa-shield"></i></div>
           <h3 class="cert-title">CCNA</h3>
           <div class="cert-org">Cisco Certified Network Associate</div>
-          <p>Validated skills in network fundamentals, IP connectivity, IP services, security fundamentals, and
-            automation.</p>
+          <p>Validated skills in network fundamentals, IP connectivity, IP services, security fundamentals, and automation.</p>
           <span class="cert-btn">Verified Cisco Course <i class="fa-solid fa-circle-check"></i></span>
         </div>
 
@@ -498,8 +425,7 @@
           <div class="cert-icon"><i class="fa-solid fa-shield"></i></div>
           <h3 class="cert-title">MTCNA</h3>
           <div class="cert-org">MikroTik Certified Network Associate</div>
-          <p>Official vendor certification validating expertise in RouterOS configuration, routing, firewalls, and
-            bandwidth management.</p>
+          <p>Official vendor certification validating expertise in RouterOS configuration, routing, firewalls, and bandwidth management.</p>
           <span class="cert-btn">Vendor Certified <i class="fa-solid fa-circle-check"></i></span>
         </div>
 
@@ -508,8 +434,7 @@
           <div class="cert-icon"><i class="fa-solid fa-shield"></i></div>
           <h3 class="cert-title">RHCSA</h3>
           <div class="cert-org">Red Hat Certified System Administrator</div>
-          <p>Credentials proving capabilities in Red Hat Enterprise Linux system management, package deployment, storage
-            configuration, and security.</p>
+          <p>Credentials proving capabilities in Red Hat Enterprise Linux system management, package deployment, storage configuration, and security.</p>
           <span class="cert-btn">Verified Linux Admin <i class="fa-solid fa-circle-check"></i></span>
         </div>
 
@@ -517,16 +442,69 @@
     </div>
   </section>
 
+  <!-- Resume Section -->
+  <section id="resume" class="section">
+    <div class="container">
+      <h2 class="section-title"><span>06.</span> Resume / CV</h2>
+      <div class="resume-wrapper">
+        <div class="glass-card resume-card">
+          <div class="resume-info">
+            <h3>Download Professional Resume</h3>
+            <p>
+              Get a comprehensive overview of my networking skills, academic credentials, and system administration experience in a printable PDF format.
+            </p>
+            <div class="resume-features">
+              <div class="feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Certified Cisco (CCNA) & MikroTik (MTCNA) highlights</span>
+              </div>
+              <div class="feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Red Hat Enterprise Linux (RHCSA) capabilities</span>
+              </div>
+              <div class="feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Detailed work history and virtualization projects</span>
+              </div>
+            </div>
+            <a href="Abid_Hasan_Shovon_Resume.pdf" download="Abid_Hasan_Shovon_Resume.pdf" class="btn btn-primary resume-download-btn">
+              <i class="fa-solid fa-file-arrow-down"></i> Download PDF Resume
+            </a>
+          </div>
+          <div class="resume-preview-box">
+            <div class="document-mock">
+              <div class="mock-header">
+                <div class="mock-avatar"><i class="fa-solid fa-user-tie"></i></div>
+                <div class="mock-lines">
+                  <div class="mock-line long"></div>
+                  <div class="mock-line medium"></div>
+                </div>
+              </div>
+              <div class="mock-body">
+                <div class="mock-line full"></div>
+                <div class="mock-line full"></div>
+                <div class="mock-line short"></div>
+                <div class="mock-grid">
+                  <div class="mock-grid-item"></div>
+                  <div class="mock-grid-item"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Contact Section -->
   <section id="contact" class="section">
     <div class="container">
-      <h2 class="section-title"><span>06.</span> Contact Me</h2>
+      <h2 class="section-title"><span>07.</span> Contact Me</h2>
       <div class="contact-grid">
         <div class="contact-info">
           <h3>Get In Touch</h3>
-          <p>Have a vacancy or need assistance in optimizing your network? Reach out directly using the form or standard
-            contact pathways below.</p>
-
+          <p>Have a vacancy or need assistance in optimizing your network? Reach out directly using the form or standard contact pathways below.</p>
+          
           <div class="contact-card">
             <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
             <div class="contact-card-details">
@@ -586,10 +564,8 @@
         <i class="fa-solid fa-network-wired"></i> SHOVON<span>.</span>
       </div>
       <div class="footer-socials">
-        <a href="https://www.linkedin.com/in/abid-hasan-shovon-902112231" target="_blank" aria-label="LinkedIn"
-          class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="mailto:abidshovon945@gmail.com" aria-label="Email" class="social-icon"><i
-            class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/abid-hasan-shovon-902112231" target="_blank" aria-label="LinkedIn" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:abidshovon945@gmail.com" aria-label="Email" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
         <a href="tel:+8801743338456" aria-label="Phone" class="social-icon"><i class="fa-solid fa-phone"></i></a>
       </div>
       <div class="footer-text">
@@ -601,5 +577,5 @@
   <!-- Script File -->
   <script src="script.js"></script>
 </body>
-
 </html>
+
